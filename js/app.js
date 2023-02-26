@@ -41,7 +41,7 @@ function displayUser(data) {
                         <h4 class="text-xs text-gray-500 dark:text-gray-400">${data.bio?data.bio:'No bio'}</h4>
 
                         <div
-                            class="grid grid-cols-3 gap-6 my-4 px-6 py-4 rounded-md border-2 border-gray-900 bg-gray-900">
+                            class="grid max-[460px]:grid-cols-1 grid-cols-3 my-4 px-6 py-4 rounded-md border-2 border-gray-900 bg-gray-900">
                             <div class="text-center">
                                 <h4 class="text-xs font-semibold text-gray-500 dark:text-gray-400">Repos</h4>
                                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">${data.public_repos}</h3>
